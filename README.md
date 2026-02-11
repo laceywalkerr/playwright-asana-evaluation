@@ -4,6 +4,12 @@ Data-driven Playwright test suite for validating tasks and tags in a demo Asana-
 
 ---
 
+## Project Overview
+
+This repository contains a data-driven Playwright test suite created for a technical evaluation. The goal was to validate task placement and associated tags in a demo Asana-style application using scalable, maintainable automation practices.
+
+---
+
 ## Tech Stack
 
 - JavaScript  
@@ -54,4 +60,9 @@ npx playwright test --headed
 - Selectors use accessible roles where possible.  
 - Column detection is dynamic via heading matching.  
 - Task cards are validated within scoped column containers.  
-- Tests are fully data-driven and scalable.  
+- Tests are fully data-driven and scalable.
+
+---
+
+## Scalability 
+New test scenarios can be added by inserting additional objects into the testCases array without modifying the core test logic. This ensures long-term maintainability and minimal duplication.
