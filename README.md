@@ -47,6 +47,15 @@ Run tests:
 npx playwright test
 ```
 
+
+Run in UI mode:
+
+```bash
+npx playwright test --ui
+```
+
+
+
 Run in headed mode:
 
 ```bash
